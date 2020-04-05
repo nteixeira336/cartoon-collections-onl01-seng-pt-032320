@@ -25,6 +25,7 @@ def find_the_cheese(cheese_types)
   cheese_types.find do |cheese|
     if 
     cheese== "cheddar" || cheese== "gouda" || cheese == "camembert"
+    puts cheese 
   else 
     nil 
   end 
