@@ -26,7 +26,7 @@ def find_the_cheese(cheese_types)
     if 
     cheese== "cheddar" || cheese== "gouda" || cheese == "camembert"
   else 
-    nil 
+   return  nil 
   end 
   
 end
